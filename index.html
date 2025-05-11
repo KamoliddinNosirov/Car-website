@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/scss/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <title>Car website</title>
+</head>
+
+<body>
+    <header id="home">
+        <nav class="navbg">
+            <div class="container">
+                <div class="logo">
+                    <h1><a href="#home">Aventador</a></h1>
+                </div>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#models">Models</a></li>
+                    <li><a href="#information">Information</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button class="menu"><i class="fa-solid fa-bars"></i></button>
+                <button><a target="_blank" href="./My Resume.pdf">CV</a></button>
+            </div>
+        </nav>
+        <div class="hero">
+            <div class="container">
+                <div class="info">
+                    <h4>CHOOSE YOUR AVENTADOR</h4>
+                        <h1>AVENTADOR</h1>
+                        <button><a href="#about">START <i class="fa-solid fa-chevron-down"></i></a></button>
+                </div>
+                <div class="col">
+                    <div class="cars-swiper">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="img_container">
+                                        <img src="./assets/image/home-car-1.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="img_container">
+                                        <img src="./assets/image/home-car-2.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="img_container">
+                                        <img src="./assets/image/home-car-3.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="img_container">
+                                        <img src="./assets/image/home-car-4.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="about" id="about">
+            <div class="container">
+                <div class="info">
+                    <h1>DESIGNED TO 
+                        <span>GO BEYOND</span>
+                        PERFORMANCE
+                    </h1>
+                    <p>Revolutionary thinking is at the heart of
+                        every Lamborghini car idea, whether it is
+                        the design inspired by the aerospace
+                        industry or the technologies applied to
+                        natural aspiration. </p>
+                    <button>DETAILS</button>
+                </div>
+                <div class="vd_container">
+                    <video autoplay muted src="./assets/image/about-vid.mp4"></video>
+                </div>
+            </div>
+        </section>
+        <section class="models" id="models">
+            <div class="container">
+                <div class="info">
+                    <h1>INSPIRED BY <br>
+                        COLORS OF NATURE</h1>
+                </div>
+                <div class="cards">
+                    <div class="card">
+                        <h4>Silver Aventador</h4>
+                        <p>355km/s</p>
+                    </div>
+                    <div class="card">
+                        <h4>Yellow Aventador</h4>
+                        <p>355km/s</p>
+                    </div>
+                    <div class="card">
+                        <h4>Blue Aventador</h4>
+                        <p>355km/s</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="cars-swiper">
+                        <div class="swiper mySwiper2">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="card"></div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card"></div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- <section class="information" id="information">
+            <div class="container">
+                <div class="info">
+                    <h4>CHOOSE YOUR AVENTADOR</h4>
+                    <h1>AVENTADOR LP <br>
+                        780-4 ULTIMAE</h1>
+                    <span>780-4</span>
+                </div>
+                <div class="img_container">
+                    <img src="./assets/image/info-car.png" alt="">
+                </div>
+                <div class="boxs">
+                    <div class="box">
+                        <h3>POWER (KW)</h3>
+                        <p>780 CV (574 kW) <br> 8.500 rpm</p>
+                    </div>
+                    <div class="box">
+                        <h3>MAX. SPEED</h3>
+                        <p>355 km/h</p>
+                    </div>
+                    <div class="box">
+                        <h3>0-100 KM/H</h3>
+                        <p>2.8 - 2.9s</p>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!-- <section class="contact" id="contact">
+            <div class="container">
+                <div class="img_container">
+                    <img src="./assets/image/contact-car.png" alt="">
+                </div>
+                <div class="info">
+                    <h1>SUBSCRIBE TO GET <br>
+                        YOUR AVENTADOR</h1>
+                    <div class="contact_label">
+                        <label for="">Names</label>
+                        <input type="text" placeholder="Enter your name">
+                    </div>
+                    <div class="contact_label">
+                        <label for="">Email</label>
+                        <input type="email" placeholder="Enter your email">
+                    </div>
+                    <button>SEND EMAIL <i class="fa-solid fa-angle-right"></i></button>
+                </div>
+            </div>
+        </section> -->
+    </main>
+    <!-- <footer>
+        <div class="container">
+            <div class="logo">
+                <h1><a href="#home">Aventador</a></h1>
+            </div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#models">Models</a></li>
+                <li><a href="#information">Information</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="icons">
+                <a href=""><i class="fa-brands fa-telegram"></i></a>
+                <a href=""> <i class="fa-brands fa-github"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin-in"></i><a>
+            </div>
+            <p class="copy_ptag"><i class="fa-solid fa-copyright"></i>All Rights Reserved By Bedimcode</p>
+        </div>
+    </footer> -->
+    <button class="scrol-up" id="scrol-up"> <a href="#home"><i class="fa-solid fa-circle-up"></i></a></button>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+<script src="./assets/js/main.js"></script>
+
+</html>
