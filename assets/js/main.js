@@ -1,7 +1,11 @@
+const menu = document.querySelector('.menu')
+const modal = document.querySelector('.modal')
+const closed = document.querySelector('.closed')
 
 const bgheader = () => {
   const navbg = document.querySelector('.navbg')
   if (window.scrollY > 50) {
+    modal.classList.remove('active')
     navbg.classList.add("bgheader")
 
 
@@ -52,5 +56,11 @@ const scrolUp = () => {
 
 window.addEventListener("scroll", scrolUp)
 
+menu.addEventListener('click', () => {
+  modal.classList.add('active')
+})
 
+closed.addEventListener('click', () => {
+  modal.classList.remove('active')
+})
 
